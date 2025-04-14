@@ -13,7 +13,7 @@ struct ModeSwitcherView: View {
     var body: some View {
         HStack(spacing: 0) {
             //Left label
-            Text(mode == .humanToPet ? "HUMAN" : "pet")
+            Text(mode == .humanToPet ? "HUMAN" : "PET")
                 .font(.system(size: 18, weight: .bold))
                 .foregroundColor(.black)
                 .frame(maxWidth: .infinity)
